@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  background-color: white;
+  color: #111827;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.btn-primary {
+  padding: 0.75rem 1.5rem;
+  background-color: #059669;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #047857;
+}
+
+.btn-secondary {
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-outline {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #059669;
+  color: #059669;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.btn-outline:hover {
+  background-color: #ecfdf5;
+}
